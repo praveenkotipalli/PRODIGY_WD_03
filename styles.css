@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #3f3f3f;
+    background-image: url("https://picsum.photos/1600/900");
+}
+
+.player{
+    
+    margin: 20px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 20px;
+    background-image: url("https://picsum.photos/1600/900");
+    font-size:large;
+    font-weight: 550;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+
+}
+
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #000;
+    font-size: 2em;
+}
+.cell:hover{
+    transition: 0.7s;
+    background-color: #b6b4b4;
+    cursor: pointer;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 1em;
+    
+    cursor: pointer;
+}
+
+#message {
+    margin: 20px;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 20px;
+    background-image: inherit;
+    font-size:large;
+    font-weight: 550;
+    text-shadow: 0px 0px 8px rgb(255, 255, 255);
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #d9534f;
+}
